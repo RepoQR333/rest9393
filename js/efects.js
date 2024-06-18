@@ -52,7 +52,7 @@ $(document).ready(function () {
         e.preventDefault();
         $('html, body').animate({
             scrollTop: galeria
-        }, 66);   
+        }, 669);   
     })
     $('#btn-ubicacion').on('click', function (e) {
         e.preventDefault();
