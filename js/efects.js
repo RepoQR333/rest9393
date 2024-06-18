@@ -38,26 +38,26 @@ $(document).ready(function () {
         e.preventDefault();
         $('html, body').animate({
             scrollTop: acercaDe - 66
-        }, 500);   
+        }, 999);   
     })
 
     $('#btn-menu').on('click', function (e) {
         e.preventDefault();
         $('html, body').animate({
             scrollTop: menu
-        }, 500);   
+        }, 666);   
     })
 
     $('#btn-galeria').on('click', function (e) {
         e.preventDefault();
         $('html, body').animate({
             scrollTop: galeria
-        }, 500);   
+        }, 66);   
     })
     $('#btn-ubicacion').on('click', function (e) {
         e.preventDefault();
         $('html, body').animate({
             scrollTop: ubicacion
-        }, 500);   
+        }, 666);   
     })
 })
